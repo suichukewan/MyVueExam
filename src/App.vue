@@ -23,7 +23,7 @@
 
     <el-row>
       <!-- content -->
-      <transition mode="out-in" name="custom-classes-transition" enter-active-class="fadeInDown" leave-active-class="flipOutX">
+      <transition mode="out-in" name="custom-classes-transition" enter-active-class="fadeInDown" leave-active-class="fadeOutUp">
         <router-view class="animated"></router-view>
       </transition>
     </el-row>

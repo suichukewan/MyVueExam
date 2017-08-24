@@ -46,7 +46,7 @@ Vue.prototype.$http = Axios;
 
 //模拟数据请求
 Mock.mock('/api/getNewItems', {
-  "newData|6-12": [{
+  "newData|4-8": [{
     'cate|1': [
       "日常记录",
       "重大发现",
