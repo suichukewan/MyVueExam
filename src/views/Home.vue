@@ -31,9 +31,9 @@
                 <el-card>
                     <h2 style=" margin-top: 0;">
                         <span style="color:red">推荐</span>
-                        <a href="#@" style="cursor: pointer;text-decoration: none; color: #555;">用DTcms做一个独立博客网站（响应式模板）</a>
+                        <a href="#@" style="cursor: pointer;text-decoration: none; color: #555;">大写的推荐-。-简单的练习项目</a>
                     </h2>
-                    <p class="note">用DTcms做一个独立博客网站（响应式模板），采用DTcms V4.0正式版（MSSQL）。开发环境：SQL2008R2+VS2010。DTcms V4.0正式版功能修复和优化：1、favicon.ico图标后台上传。（解决要换图标时要连FTP或者开服务器的麻烦）</p>
+                    <p class="note">vue2.0 vuex vueRouter axios mock animate webpack elementui</p>
                 </el-card>
                 <el-row>
                     <h3>最新发布</h3>
