@@ -5,13 +5,12 @@ import App from './App.vue'
 import VueRouter from 'vue-router'
 import Vuex from 'vuex'
 import 'animate.css/animate.css'
-import Axios from 'axios'
 import Home from './views/Home.vue'
 import Mock from 'mockjs'
-
+import AxiosPlugin from './plugins/axios.js';
 //UI库
 Vue.use(ElementUI);
-
+Vue.use(AxiosPlugin,'$http');
 
 //路由
 Vue.use(VueRouter);
@@ -41,8 +40,6 @@ const store = new Vuex.Store({
   }
 });
 
-//web请求组件
-Vue.prototype.$http = Axios;
 
 //模拟数据请求
 Mock.mock('/api/getNewItems', {
