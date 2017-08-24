@@ -1,7 +1,7 @@
 {
-  "name": "element-starter",
+  "name": "myblog",
   "description": "A Vue.js project",
-  "author": "yi.shyang@ele.me",
+  "author": "f0822h@163.com",
   "private": true,
   "scripts": {
     "dev": "webpack-dev-server --inline --hot --env.dev",
